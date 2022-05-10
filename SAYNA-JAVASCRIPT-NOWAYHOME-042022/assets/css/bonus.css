@@ -1,0 +1,73 @@
+:root{
+    --primary-ad-color: #b11313;
+    --black-ad-color: #000000;
+    --white-ad-color: #ffffff;
+}
+
+
+/* La partie Hero de la page Bonus */
+
+
+#hero{
+    background-image: url("../img/img35.png");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero .box{
+    top: 55%;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    width: -4%;
+    height: auto;
+    margin: auto 0 auto 50%;
+}
+#compte_a_rebours{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    /* padding: 5%; */
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+.decomptes{
+    /* width: 114px; */
+    height: 67px;
+    margin: 12px;
+}
+.decomptes button{
+    background: red;
+    width: 49px;
+    height: 45px;
+    /* margin: 15% 5%; */
+}
+#jours button, #heures button, #minutes button, #secondes button{
+    font-size: 2.5vw;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+/* Mobile version footer2 page Bonus */
+
+@media screen and (max-width:600px) {
+    .conteneur{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .brand-mobile{
+        background-color: var(--primary-ad-color);
+        padding: 20px 40px;
+    }
+
+    .box{
+        padding-left: 40px;
+    }
+}
